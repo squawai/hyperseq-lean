@@ -8,4 +8,4 @@ package «HypersequentCalculus» where
 
 @[default_target]
 lean_lib «HypersequentCalculus» where
-  globs := #[.one `HypersequentCalculus, .submodules `Modal]
+  globs := #[.one `HypersequentCalculus, .submodules `Modal, .submodules `FuzzyLogic]

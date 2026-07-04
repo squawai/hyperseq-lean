@@ -7,3 +7,4 @@ cites its own source in its header comment.
 -/
 
 import Modal.S5Hypersequent
+import FuzzyLogic.FuzzyHypersequent

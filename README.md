@@ -20,6 +20,19 @@ Symbolic Logic* 52(4), 1987.
 Status: definitions and calculus rules formalized, no `sorry`. Proofs
 of soundness/completeness are future work.
 
+### `FuzzyLogic/FuzzyHypersequent.lean`
+
+Hypersequent calculi for fuzzy logics: **BL** (Basic Logic, `HBL`) and
+**Łukasiewicz logic** (`HLuk`, extending `HBL` with the density rule).
+`FuzzyFormula` adds a fusion connective (t-norm) alongside lattice
+conjunction, with a residuated implication.
+
+Reference: G. Metcalfe, N. Olivetti, D. Gabbay, *Proof Theory for
+Fuzzy Logics*, Springer, 2009, Ch. 4–5.
+
+Status: definitions and calculus rules formalized, no `sorry`. Proofs
+of soundness/completeness are future work.
+
 ## Building
 
 ```sh
